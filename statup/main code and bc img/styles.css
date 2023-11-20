@@ -1,0 +1,239 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('background\ .jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    animation: fadeIn 2s; 
+}
+
+section {
+    padding: 40px;
+    text-align: left;
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+#vision, #who-we-are, #what-we-do, #our-approach, #why-choose-us, #get-in-touch {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#vision h2,
+#who-we-are h2,
+#what-we-do h2,
+#our-approach h2,
+#why-choose-us h2,
+#get-in-touch h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#vision p,
+#who-we-are p,
+#what-we-do p,
+#our-approach p,
+#why-choose-us ul,
+#get-in-touch p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#what-we-do ul,
+#why-choose-us ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#get-in-touch p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#get-in-touch p a:hover {
+    text-decoration: underline;
+}
+
+#vision, #who-we-are, #our-approach, #why-choose-us, #get-in-touch {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center; 
+}
+
+#what-we-do {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+#vision h2,
+#who-we-are h2,
+#our-approach h2,
+#why-choose-us h2,
+#get-in-touch h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+#what-we-do h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+#what-we-do ul {
+    list-style-type: disc;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; 
+    text-align: left;
+}
+
+#what-we-do li {
+    text-align: left; 
+}
+
+
+#what-we-do .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#what-we-do .column {
+    flex-basis: 48%; 
+}
+
+#what-we-do h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#what-we-do ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+
+#what-we-do li {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+
+#what-we-do {
+    text-align: center; 
+}
+
+#what-we-do .services {
+    display: inline-block; 
+    text-align: left;
+}
+
+#what-we-do .column {
+    width: 45%; 
+    display: inline-block; 
+    vertical-align: top; 
+    margin: 0 20px; 
+}
+
+#what-we-do h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#what-we-do ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+
+#what-we-do li {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#what-we-do {
+    margin-top: 50px; 
+}
+
+#what-we-do .services {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#what-we-do .column {
+    flex-basis: 48%; 
+    margin: 0 10px; 
+}
+
+#what-we-do h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#what-we-do ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+
+#what-we-do li {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
